@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grants Popover Challenge</title>
+    <!-- CSS includes -->
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    <nav>
+        <h2>Popover Challenge</h2>
+    </nav>
+    <main>
+        <!-- Lightbox Cover -->
+        <div id="cover">
+            <!-- Container for Popover, gives border w/ space -->
+            <div id="popover-Container">
+                <!-- Popover Start -->
+                <div id="popover">
+                    <div class="white-rectangles" id="top-rect"></div>
+                    <a href="#" tabindex="1"  onclick="ClosePopover();" ><span id="close-button" >x</span></a>
+                    <div id="pop-Opening">
+                        <p>You are Cordially Invited<br>to the Launch</p>
+                        <p><span class="italic ofthe">of the</span></p>
+                        <span class="announcement">
+                            <h3>NEW</h3>
+                            <span class="pink-text"><h3>COMPANY</h3></span>
+                            <h3>WEBSITE</h3>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet, vix suas liber conclusionemque eu. Ad quo esse purto eros, nemore volutpat ut quo, copiosae concludaturque nam in.</p>
+                        <hr class="red-bar">
+                        <p>AD EST OD O NOSTER:</p>
+                        <ul class="popover-list">
+                            <li><span class="black-text">Ex vis amet graeci accumsan</span></li>
+                            <li><span class="black-text">Civibus iracundia quo ad</span></li>
+                            <li><span class="black-text">Eu impetus feugiat civibus qui</span></li>
+                            <li><span class="black-text">Mel in mucius argumentum, an accumsan petentium vim</span></li>
+                            <li><span class="black-text">Vim at rationibus interesset</span></li>
+                        </ul>
+                    </div>
+                    <div id="pop-lower">
+                        <p id="pop-lower-header">GET YOUR FOOT IN THE DOOR</p>
+                        <p>Know the moment our new website goes live.</p>
+                        <!-- Popover Form Start -->
+                        <form id="popover-form" method="post">
+                            <input tabindex="2" type="text" name="name" value="Name">
+                            <input tabindex="3" type="email" name="email" value="Email">
+                            <input tabindex="4" id="pop-button" type="submit" value="Submit">
+                            <br>
+                            <div id="accept-box-sec">
+                                <div id="checkDiv">
+                                    <input tabindex="5" type="checkbox" name="accept" value="accept">
+                                </div>
+                                <div>
+                                    <span class="italic small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="white-rectangles" id="bot-rect"></div>
+                </div>
+                <!-- Popover End -->
+            </div>
+            <!-- PO container End -->
+            <img class="side-img" id="shaving" src="images/shavings.png" alt="A wood shaving.">
+            <img class="side-img" id="tool" src="images/tool.png" alt="A chisel.">
+        </div>
+        <!-- Cover End -->
+    </main>
+    <footer></footer>
+    <!-- jQuery/Javascript Includes -->
+    <script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="scripts/site.js"></script>
+</body>
+</html>

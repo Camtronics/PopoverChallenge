@@ -1,0 +1,260 @@
+body
+{
+    width: 100%;
+    background: #b9b7b7;
+    margin: 0px;
+}
+
+nav
+{
+    width: 100%;
+    height: 50px;
+    background: #ad051f;
+}
+
+nav h2
+{
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+main
+{
+    height: 600px;
+    background: #1f14a0;
+}
+
+footer
+{
+    height: 100px;
+    width: 100%;
+    background: #087c4f;
+}
+
+/* Lightbox cover */
+#cover
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 1550px;
+    background: rgba(90, 87, 87, 0.92);
+    overflow: hidden;
+    display: none;
+}
+
+/* POPOVER CSS SECTION */
+#popover-Container
+{
+    margin: 100px auto;
+    width: calc(60% + 10px);
+    padding: 10px;
+    border: 1px #bababa solid;
+    text-align: center;
+}
+
+#popover
+{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+#popover p
+{
+    position: relative;
+    z-index: 10;
+    display: block;
+    margin: 5px auto;
+    max-width: 60%;
+    font-size: 15pt;
+}
+
+    .ofthe
+    {
+        display: block;
+        margin-top: 36px;
+    }
+
+#close-button
+{
+    position: relative;
+    left: 45%;
+    color: #de0202;
+}
+
+#pop-Opening
+{
+    padding-top: 100px;
+    height: auto;
+}
+
+
+.announcement
+{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+    .announcement h3
+    {
+        position: relative;
+        z-index: 10;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        padding: 0px;
+        font-size: 40pt;
+    }
+
+        @media (max-width: 480px) 
+        {
+            .announcement h3
+            {
+                font-size: 25pt;   
+            }
+        }
+
+.red-bar
+{
+    display: block;
+    width: 17%;
+    border-color: #c40045;
+    margin: 50px auto;
+}
+
+.popover-list
+{
+    text-align: left;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d03269;
+}
+
+/* Section w/ Pink Background */
+#pop-lower
+{
+    margin-top: 25px;
+    padding: 25px 0;   
+    background: #9f173d;
+    width: 100%;
+    color: #fff;
+}
+
+#popover #pop-lower-header
+{
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+/* Popover Form */
+
+#popover form
+{
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+    #popover input
+    {
+        height: 50px;
+        width: 30%;
+        font-size: 15pt;
+    }
+
+    #popover #pop-button
+    {
+        height: 60px;
+        min-width: 75px;
+        border: 2px solid #000;
+        background: #000;
+        color: #fff;
+        width: 10%;
+        font-size: 15pt;
+    }
+
+    #popover #accept-box-sec
+    {
+        max-width: 50%;
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+
+        #checkDiv
+        {
+            float: left;
+            width: 10%;
+        }
+
+/* Decorative Rectangles? */
+.white-rectangles
+{
+    position: absolute;
+    z-index: 3;
+    right: 45%;
+    width: 8%;
+    background: none;
+    border: 10px #f5f5f5 solid;
+}
+
+    #top-rect
+    {
+        top: 20px;
+        height: 400px;
+    }
+
+    #bot-rect
+    {
+        margin-top: -25px;
+        height: 50px;
+
+    }
+
+.side-img
+{
+    position: absolute;
+    z-index: 15;
+}
+
+#tool
+{
+    top: 900px;
+    width: 23%;
+}
+
+#shaving
+{
+    top: 350px;
+    right: 15%;
+    width: 8%;
+}
+
+
+
+/* Section for styling */
+
+.italic
+{
+    font-style: italic;
+}
+
+.pink-text
+{
+    color: #9f173d;
+}
+.black-text
+{
+    color: #000;
+}
+
+.small-text
+{
+    font-size: 0.6em;
+}
+
